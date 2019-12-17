@@ -1,6 +1,6 @@
 # WHAT IS THE PROJECT?
 
-Script to [ZIGZAG](https://zigzag.io/) transactions in Google Sheets.
+The application consists of searching for zigzag exchanges and adding it to a spreadsheet, making this loop once a day.
 
 # CONFIGURING THE ENVIRONMENT
 #
@@ -8,7 +8,6 @@ Script to [ZIGZAG](https://zigzag.io/) transactions in Google Sheets.
 ##### 1 - One step :  program installation is packages
 #
 #
-
 ```bash
 sudo su && apt-get update
 apt-get upgrade && apt-get install python3
@@ -49,11 +48,21 @@ cd zigzagtosheet && pip3 -r requirements.txt
 ```bash
 python3 app.py
 ```
+
+#
+![Screenshot](http://i.imgur.com/IQJhO0n.png)
+
+## Seeing the google spreadsheet
+#
+![Screenshot](http://i.imgur.com/6zp4DI0.png)
+
+#
+## Custom settings
 #
 ![Screenshot](https://i.imgur.com/tydG4a7.png)
 
-You can change some settings in the code such as the size of the book to be taken, the name of the spreadsheet, the name of the keyfile, the settings are from line 11 to 17.
+* You can change some settings in the code such as the size of the book to be taken, the name of the spreadsheet, the name of the keyfile, the settings are from line 11 to 17.
 
 ###### I freelance just call me on twitter DM [@devkakashi](https://twitter.com/devkakashi)
 #
-[LICENSE](https://opensource.org/licenses/Apache-2.0)  - [Image Credits](https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html)
+[Image Credits](https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html)
