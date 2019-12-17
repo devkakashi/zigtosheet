@@ -12,7 +12,7 @@ The application consists of searching for zigzag exchanges and adding it to a sp
 sudo su && apt-get update
 apt-get upgrade && apt-get install python3
 apt-get install python3-pip && apt-get install git
-git clone https://github.com/bitnod-dev/zigzagtosheet
+git clone https://github.com/devkakashi/zigzagtosheet/
 cd zigzagtosheet && pip3 -r requirements.txt
 ```
 
